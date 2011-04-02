@@ -1,14 +1,68 @@
-\documentclass{beamer}
-\usetheme{default}
+\documentclass[18pt]{beamer}
+\usetheme{Madrid}
+
+\usepackage{graphics}
+
 \begin{document}
 
-\title[short title]{Open Source Software Practices}
-\subtitle[short subtitle]{long subtitle}
-\author[short name]{Luis Ibanez}
-\date[short date]{April 6 2011}
+\title[Open Source]{Open Source Software Practices}
+\subtitle[UH]{University of Houston}
+\author[Luis Ibanez]{Luis Ibanez}
+\institute{KITWARE Inc.\\
+Clifton Park, NY
+}
+\date[April 2011]{April 6 2011}
 
 \begin{frame}
 \titlepage
 \end{frame}
+
+\begin{frame}{Overview}
+
+\begin{itemize}
+\item Software Industry Economics
+\pause
+\item The Manufacturing Delusion
+\pause
+\item Community Included
+\pause
+\item The Long Tail
+\end{itemize}
+
+\end{frame}
+
+
+{
+\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+\begin{frame}[plain]
+\fontsize{72pt}{90pt}\selectfont
+\center
+\begin{center}
+Economics
+\end{center}
+\end{frame}
+}
+
+{
+\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+\begin{frame}[plain]
+\fontsize{72pt}{90pt}\selectfont
+\center
+\begin{center}
+\$ 13 Trillion
+\end{center}
+\end{frame}
+}
+
+
+
+{ % brace to limit the scope of \setbeamertemplate
+\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+\setbeamertemplate{background canvas}{
+  \includegraphics[width=\paperwidth,height=\paperheight]{../Art/osi_symbol.png}
+}
+\begin{frame}[plain]
+\end{frame}
+} % closing brace
 
 \end{document}
