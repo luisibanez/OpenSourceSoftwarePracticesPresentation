@@ -8,7 +8,7 @@
 \title[Open Source]{Open Source Software Practices}
 \subtitle[UH]{University of Houston}
 \author[Luis Ibanez]{Luis Ibanez}
-\institute{KITWARE Inc.\\
+\institute[Kitware]{KITWARE Inc.\\
 Clifton Park, NY
 }
 \date[April 2011]{April 6 2011}
@@ -25,7 +25,7 @@ Clifton Park, NY
 \section{Economics}
 
 {
-\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+\setbeamertemplate{navigation symbols}{}
 \begin{frame}[plain]
 \fontsize{72pt}{90pt}\selectfont
 \center
@@ -35,6 +35,9 @@ Economics
 \end{frame}
 }
 
+{
+\setbeamercolor{background canvas}{bg=black}
+\color{white}
 \begin{frame}[plain]
 \fontsize{36pt}{36pt}\selectfont
 \center
@@ -44,6 +47,7 @@ Manufacturing\\
 Delusion
 \end{center}
 \end{frame}
+}
 
 \begin{frame}[plain]
 \fontsize{18pt}{18pt}\selectfont
@@ -61,11 +65,16 @@ Eric S. Raymond
 \end{frame}
 
 
-\begin{frame}[plain]
-\frametitle{Sale Value versus Use Value}
-  \includegraphics[width=0.5\textwidth,height=\paperheight]{../Art/2672465894_5b21e12135_z.jpg}
-  \includegraphics[width=0.5\textwidth,height=\paperheight]{../Art/4293485922_7474ef04ce_z.jpg}
+{
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{background canvas}{
+  \includegraphics[width=0.55\textwidth,height=\paperheight]{../Art/2672465894_5b21e12135_z.jpg}
+  \includegraphics[width=0.55\textwidth,height=\paperheight]{../Art/4293485922_7474ef04ce_z.jpg}
+  }
+\begin{frame}
+\frametitle{Sale Value vs Use Value}
 \end{frame}
+}
 
 
 \begin{frame}
@@ -98,13 +107,18 @@ Balance Sheets - September 2009 - September 2010
 \end{frame}
 
 
+{
+\setbeamertemplate{navigation symbols}{}
 \begin{frame}
 \frametitle{Largest Software Publishers - 2010}
 
 \begin{center}
 \begin{tabular}{clrrr}
 \hline
-  \textbf{Rank} &\textbf{Publisher} &	\textbf{Software \$M} & \textbf{Total \$M} & \textbf{Percent} \\
+  \textbf{Rank
+\footnote{
+\url{http://www.softwaretop100.org/global-software-top-100-edition-2010}}
+} &\textbf{Publisher} &	\textbf{Software \$M} & \textbf{Total \$M} & \textbf{Percent} \\
 \hline
 \hline
 1 &  \textbf{Microsoft} & 49,090  & 61,159 &  80\% \\
@@ -119,21 +133,23 @@ Balance Sheets - September 2009 - September 2010
 10&  Blizzard & 4,279  & 4,279 & 100\% \\
 \end{tabular}
 
-\vskip15pt
-\scriptsize
-\url{http://www.softwaretop100.org/global-software-top-100-edition-2010}\\
-
 \end{center}
 \end{frame}
+}
 
 
+{
+\setbeamertemplate{navigation symbols}{}
 \begin{frame}
 \frametitle{Largest Software Publishers - 2010}
 
 \begin{center}
 \begin{tabular}{clrrr}
 \hline
-\textbf{Rank} &\textbf{Publisher} &	\textbf{Software \$M} & \textbf{Total \$M} & \textbf{Percent} \\
+\textbf{Rank
+\footnote{
+\url{http://www.softwaretop100.org/global-software-top-100-edition-2010}}
+} &\textbf{Publisher} &	\textbf{Software \$M} & \textbf{Total \$M} & \textbf{Percent} \\
 \hline
 \hline
 11 & CA & 4,012  & 4,318 & 93\% \\
@@ -148,21 +164,23 @@ Balance Sheets - September 2009 - September 2010
 20 & Konami & 1,594 &  2,887 & 55\% \\
 \end{tabular}
 
-\vskip15pt
-\scriptsize
-\url{http://www.softwaretop100.org/global-software-top-100-edition-2010}
-
 \end{center}
 \end{frame}
+}
 
 
+{
+\setbeamertemplate{navigation symbols}{}
 \begin{frame}
 \frametitle{Largest Software Publishers - 2010}
 
 \begin{center}
 \begin{tabular}{clrrr}
 \hline
-\textbf{Rank} &\textbf{Publisher} &	\textbf{Software \$M} & \textbf{Total \$M} & \textbf{Percent} \\
+\textbf{Rank
+\footnote{
+\url{http://www.softwaretop100.org/global-software-top-100-edition-2010}}
+} &\textbf{Publisher} &	\textbf{Software \$M} & \textbf{Total \$M} & \textbf{Percent} \\
 \hline
 \hline
 21 & Hitachi & 1,589 & 99,818 & 2\% \\
@@ -177,12 +195,9 @@ Balance Sheets - September 2009 - September 2010
 39 & McAfee & 964 &	1,927 & 50\% \\
 \end{tabular}
 
-\vskip15pt
-\scriptsize
-\url{http://www.softwaretop100.org/global-software-top-100-edition-2010}
-
 \end{center}
 \end{frame}
+}
 
 
 \begin{frame}
@@ -191,20 +206,61 @@ Balance Sheets - September 2009 - September 2010
 \end{frame}
 
 
-{
 \begin{frame}
 \frametitle{Size of the Software Publishing Industry - 2010}
 \fontsize{72pt}{90pt}\selectfont
-\center
 \begin{center}
 \$ 221 Billion
 \end{center}
 \end{frame}
+
+
+{
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{background canvas}{
+  \includegraphics[width=\paperwidth,height=\paperheight]{../Art/Iceberg_Antarctica_Crop.jpg}
+}
+\begin{frame}[plain]
+\end{frame}
 }
 
 
 {
-\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+\setbeamertemplate{navigation symbols}{}
+\begin{frame}
+\frametitle{Apple Inc.}
+
+\begin{center}
+\begin{tabular}{lrr}
+\hline
+\textbf{Product}
+\footnote{
+\href{http://phx.corporate-ir.net/External.File?item=UGFyZW50SUQ9NzgwODJ8Q2hpbGRJRD0tMXxUeXBlPTM=&t=1}
+{Financial Report, First Quarter 2011, page 25:}
+ \url{http://www.apple.com/investor/} }
+& \textbf{Sales \$M}
+& \textbf{Percent} \\
+\hline
+\hline
+\textbf{iPhone} and services & \textbf{10,468} &  39.15\%  \\
+iPad and services & 4,608 & 17.23\% \\
+Laptops & 3,699 & 13.83\% \\
+iPod & 3,425 & 12.81\% \\
+Desktops & 1,731 & 6.47\% \\
+Music and services & 1,431 & 5.35\%  \\
+\textbf{Software} and others &  786 & \textbf{2.94\%} \\
+Perihelias &  593 & 2.22\% \\
+\hline
+Total &  26,741 & 100\% \\
+\end{tabular}
+
+\end{center}
+\end{frame}
+}
+
+
+{
+\setbeamertemplate{navigation symbols}{}
 \begin{frame}[plain]
 \fontsize{72pt}{90pt}\selectfont
 \center
@@ -215,7 +271,7 @@ Balance Sheets - September 2009 - September 2010
 }
 
 {
-\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+\setbeamertemplate{navigation symbols}{}
 \begin{frame}[plain]
 \fontsize{72pt}{90pt}\selectfont
 \center
@@ -225,14 +281,22 @@ Balance Sheets - September 2009 - September 2010
 \end{frame}
 }
 
-{ % brace to limit the scope of \setbeamertemplate
-\setbeamertemplate{navigation symbols}{}  % optionally hide navigation buttons
+
+
+\begin{frame}[plain]
+\frametitle{Sale Value versus Use Value}
+  \includegraphics[width=0.5\textwidth,height=\paperheight]{../Art/Iceberg.jpg}
+\end{frame}
+
+
+{
+\setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{background canvas}{
   \includegraphics[width=\paperwidth,height=\paperheight]{../Art/osi_symbol.png}
 }
 \begin{frame}[plain]
 \end{frame}
-} % closing brace
+}
 
 \section{Practices}
 
@@ -252,6 +316,8 @@ Balance Sheets - September 2009 - September 2010
 \item \url{http://opensource.org/files/osi_standard_logo.png}
 \item \url{http://www.flickr.com/photos/lifeontheedge/2672465894}
 \item \url{http://www.flickr.com/photos/hortulus_aptus/4293485922}
+\item \url{http://en.wikipedia.org/wiki/File:Iceberg_Antarctica.jpg}
+\item \url{http://en.wikipedia.org/wiki/File:Iceberg.jpg}
 \end{itemize}
 \end{frame}
 
