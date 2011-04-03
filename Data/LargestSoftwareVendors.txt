@@ -1,100 +1,100 @@
-1 Microsoft 	 49,090 	-1 	61,159 	80 	
-2 IBM 	 21,396 	-3 	95,758 	22 	
-3 Oracle 	 18,582 	6 	22,734 	82 	
-4 SAP 	 11,368 	-2 	15,373 	74 	
-5 Ericsson 	 7,595 	5 	29,014 	26 	
-6 Nintendo 	 6,799 	-6 	17,762 	38 	
-7 HP 	 6,183 	-15 	116,245 	5 	
-8 Symantec 	 5,565 	-2 	5,992 	93 	
-9 Nokia Siemens Networks 	 4,529 	-15 	18,114 	25 	
-10 Activision Blizzard 	 4,279 	-7 	4,279 	100 	
-11 CA 	 4,012 	2 	4,318 	93 	
-12 EMC 	 3,960 	-6 	14,026 	28 	
-13 Electronic Arts 	 3,728 	-13 	3,728 	100 	
-14 Adobe 	 2,796 	-17 	2,987 	94 	
-15 Cisco 	 2,137 	8 	36,633 	6 	
-16 SunGard 	 1,996 	-1 	5,508 	36 	
-17 Sony 	 1,914 	-27 	79,441 	2 	
-18 BMC 	 1,758 	11 	1,888 	93 	
-19 Alcatel-Lucent 	 1,635 	12 	21,835 	8 	
-20 Konami 	 1,594 	-24 	2,887 	55 	
-21 Hitachi 	 1,589 	-7 	99,818 	2 	
-22 Dassault 	 1,584 	-1 	1,803 	88 	
-23 Infor 	 1,575 	-5 	2,100 	75 	
-24 Sage 	 1,557 	4 	2,336 	67 	
-25 Autodesk 	 1,557 	-21 	1,764 	88 	
-26 Intuit 	 1,294 	-6 	2,888 	45 	
-27 Ubisoft 	 1,249 	-16 	1,249 	100 	
-28 Apple 	 1,218 	8 	43,086 	3 	
-29 Synopsys 	 1,202 	0 	1,353 	89 	
-30 General Electric 	 1,200 	9 	156,783 	1 	
-31 Salesforce.com 	 1,191 	24 	1,287 	93 	
-32 SAS Institute 	 1,155 	2 	2,310 	50 	
-33 Citrix 	 1,140 	-3 	1,614 	71 	
-34 NCR 	 1,117 	-22 	4,612 	24 	
-35 Wolters Kluwer 	 1,045 	13 	4,934 	21 	
-36 Trend Micro 	 1,029 	5 	1,029 	100 	
-37 VMWare 	 1,029 	-13 	2,024 	51 	
-38 Nortel 	 1,022 	-46 	4,088 	25 	
-39 McAfee 	 964 	21 	1,927 	50 	
-40 Thales Computers 	 928 	5 	18,556 	5 	
-41 Square Enix 	 916 	62 	1,832 	50 	
-42 Take Two Interactive 	 916 	-37 	916 100 	
-43 THQ 	 909 	-1 	909 100 	
-44 Namco Bandai Games 	 860 1 	4,213 20 	
-45 Software AG 	 836 	12 	1,221 	69 	
-46 Sega Sammy Holdings 	 836 -14 	4,248 20 	
-47 Check Point 	 834 	21 	924 	90 	
-48 Qualcomm 	 826 	-7 	10,482 	8 	
-49 Cegedim Dendrite 	 825 	8 	1,259 	66 	
-50 Siemens 	 800 	0 	107,396 	1 	
-51 Teradata 	 772 -9 	1,709 45 	
-52 Capcom 	 767 32 	994 77 	
-53 Sun Microsystems 	 760 8 	10,211 	7 	
-54 Wincor Nixdorf 	 757 9 	3,305 23 	
-55 Novell 	 751 	-6 	853 88 	
-56 Cerner 	 747 3 	1,672 	45 	
-57 Cadence 	 746 -18 	853 	88 	
-58 Reynolds & Reynolds 	 744 0 	967 77 	
-59 Shanda Interactive 	 704 40 	768 92 	
-60 Open Text 	 692 21 	852 82 	
-61 Fujitsu 	 671 -5 	50,662 1 	
-62 Compuware 	 656 -10 	935 70 	
-63 NetApp 	 655 14 	3,558 18 	
-64 Red Hat 	 622 18 	732 85 	
-65 Nexon Corporation 	 608 70 	608 100 	
-66 Sybase 	 593 3 	1,170 51 	
-67 Intergraph 	 578 	-5 	770 	75 	
-68 Philips 	 565 	6 	33,406 	2 	
-69 Nuance 	 564 	3 	976 	58 	
-70 McKesson 	 553 	-3 	108,717 	1 	
-71 NCSoft 	 549 	100 	549 	100 	
-72 SAIC 	 539 	8 	10,781 	5 	
-73 Solera Holdings 	 534 	8 	593 	90 	
-74 Sterling Commerce 	 526 	0 	634 	83 	
-75 F5 	 516 	4 	689 	75 	
-76 Avid 	 509 -29 	629 81 	
-77 Autonomy 	 493 47 	740 67 	
-78 Intel Corporation 	 485 	68 	35,172 1 	
-79 Kaspersky Lab 	 480 33 	480 100 	
-80 Mentor Graphics 	 477 4 	802 60 	
-81 PTC (Parametric) 	 477 -24 	960 50 	
-82 Verint 	 468 7 	702 67 	
-83 Sopra Group 	 461 26 	1,576 29 	
-84 Lawson 	 457 -1 	731 63 	
-85 Epic Systems 	 451 0 	601 75 	
-86 Aspect Communications 	 450 0 	600 75 	
-87 Progress 	 445 	-4 	495 90 	
-88 Rockwell Automation 	 432 -24 	4,317 10 	
-89 Totvs 	 429 51 	620 69 	
-90 Quest 	 418 -11 	695 60 	
-91 Diebold 	 413 -12 	2,718 15 	
-92 Pgi 	 401 -4 	601 67 	
-93 Real 	 401 	-10 	562 	71 	
-94 Misys 	 393 	-12 	1,073 	37 	
-95 ESRI 	 388 	0 	776 	50 	
-96 Ansys 	 383 	3 	517 	74 	
-97 Google Inc. 	 381 	14 	23,651 	2 	
-98 Inspur 	 378 	11 	3,784 	10 	
-99 Acision 	 375 	0 	500 	75 	
+1 Microsoft 	 49090 	-1 	61159 	80
+2 IBM 	 21396 	-3 	95758 	22
+3 Oracle 	 18582 	6 	22734 	82
+4 SAP 	 11368 	-2 	15373 	74
+5 Ericsson 	 7595 	5 	29014 	26
+6 Nintendo 	 6799 	-6 	17762 	38
+7 HP 	 6183 	-15 	116245 	5
+8 Symantec 	 5565 	-2 	5992 	93
+9 Nokia-Siemens 4529 	-15 	18114 	25
+10 Activision-Blizzard 	 4279 	-7 	4279 	100
+11 CA 	 4012 	2 	4318 	93
+12 EMC 	 3960 	-6 	14026 	28
+13 Electronic-Arts 	 3728 	-13 	3728 	100
+14 Adobe 	 2796 	-17 	2987 	94
+15 Cisco 	 2137 	8 	36633 	6
+16 SunGard 	 1996 	-1 	5508 	36
+17 Sony 	 1914 	-27 	79441 	2
+18 BMC 	 1758 	11 	1888 	93
+19 Alcatel-Lucent 	 1635 	12 	21835 	8
+20 Konami 	 1594 	-24 	2887 	55
+21 Hitachi 	 1589 	-7 	99818 	2
+22 Dassault 	 1584 	-1 	1803 	88
+23 Infor 	 1575 	-5 	2100 	75
+24 Sage 	 1557 	4 	2336 	67
+25 Autodesk 	 1557 	-21 	1764 	88
+26 Intuit 	 1294 	-6 	2888 	45
+27 Ubisoft 	 1249 	-16 	1249 	100
+28 Apple 	 1218 	8 	43086 	3
+29 Synopsys 	 1202 	0 	1353 	89
+30 General-Electric 	 1200 	9 	156783 	1
+31 Salesforce.com 	 1191 	24 	1287 	93
+32 SAS-Institute 	 1155 	2 	2310 	50
+33 Citrix 	 1140 	-3 	1614 	71
+34 NCR 	 1117 	-22 	4612 	24
+35 Wolters-Kluwer 	 1045 	13 	4934 	21
+36 Trend-Micro 	 1029 	5 	1029 	100
+37 VMWare 	 1029 	-13 	2024 	51
+38 Nortel 	 1022 	-46 	4088 	25
+39 McAfee 	 964 	21 	1927 	50
+40 Thales-Computers 	 928 	5 	18556 	5
+41 Square-Enix 	 916 	62 	1832 	50
+42 Take-Two 916 	-37 	916 100
+43 THQ 	 909 	-1 	909 100
+44 Namco-Bandai 860 1 	4213 20
+45 Software-AG 	 836 	12 	1221 	69
+46 Sega-Sammy 836 -14 	4248 20
+47 Check-Point 	 834 	21 	924 	90
+48 Qualcomm 	 826 	-7 	10482 	8
+49 Cegedim-Dendrite 	 825 	8 	1259 	66
+50 Siemens 	 800 	0 	107396 	1
+51 Teradata 	 772 -9 	1709 45
+52 Capcom 	 767 32 	994 77
+53 Sun-Microsystems 	 760 8 	10211 	7
+54 Wincor-Nixdorf 	 757 9 	3305 23
+55 Novell 	 751 	-6 	853 88
+56 Cerner 	 747 3 	1672 	45
+57 Cadence 	 746 -18 	853 	88
+58 Reynolds-Reynolds 	 744 0 	967 77
+59 Shanda-Interactive 	 704 40 	768 92
+60 Open-Text 	 692 21 	852 82
+61 Fujitsu 	 671 -5 	50662 1
+62 Compuware 	 656 -10 	935 70
+63 NetApp 	 655 14 	3558 18
+64 Red-Hat 	 622 18 	732 85
+65 Nexon-Corporation 	 608 70 	608 100
+66 Sybase 	 593 3 	1170 51
+67 Intergraph 	 578 	-5 	770 	75
+68 Philips 	 565 	6 	33406 	2
+69 Nuance 	 564 	3 	976 	58
+70 McKesson 	 553 	-3 	108717 	1
+71 NCSoft 	 549 	100 	549 	100
+72 SAIC 	 539 	8 	10781 	5
+73 Solera 534 	8 	593 	90
+74 Sterling 526 	0 	634 	83
+75 F5 	 516 	4 	689 	75
+76 Avid 	 509 -29 	629 81
+77 Autonomy 	 493 47 	740 67
+78 Intel 485 	68 	35172 1
+79 Kaspersky-Lab 	 480 33 	480 100
+80 Mentor-Graphics 	 477 4 	802 60
+81 PTC-Parametric 	 477 -24 	960 50
+82 Verint 	 468 7 	702 67
+83 Sopra-Group 	 461 26 	1576 29
+84 Lawson 	 457 -1 	731 63
+85 Epic-Systems 	 451 0 	601 75
+86 Aspect-Communications 	 450 0 	600 75
+87 Progress 	 445 	-4 	495 90
+88 Rockwell-Automation 	 432 -24 	4317 10
+89 Totvs 	 429 51 	620 69
+90 Quest 	 418 -11 	695 60
+91 Diebold 	 413 -12 	2718 15
+92 Pgi 	 401 -4 	601 67
+93 Real 	 401 	-10 	562 	71
+94 Misys 	 393 	-12 	1073 	37
+95 ESRI 	 388 	0 	776 	50
+96 Ansys 	 383 	3 	517 	74
+97 Google Inc. 	 381 	14 	23651 	2
+98 Inspur 	 378 	11 	3784 	10
+99 Acision 	 375 	0 	500 	75
 100 FICO 	 375 	-7 	625 	60
