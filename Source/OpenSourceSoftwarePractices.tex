@@ -3,6 +3,22 @@
 
 \usepackage{graphics}
 
+
+\newcommand{\centeredlargetext}[3]{
+{
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{background canvas}{bg={#1}}
+\color{#2}
+\begin{frame}[plain]
+\fontsize{36pt}{36pt}\selectfont
+\center
+\begin{center}
+{#3}
+\end{center}
+\end{frame}
+}}
+
+
 \begin{document}
 
 \title[Open Source]{Open Source Software Practices}
@@ -53,31 +69,16 @@ Images used in this presentation are attributed in the last slide.
 
 \part{Economics}
 
-{
-\setbeamertemplate{navigation symbols}{}
-\begin{frame}[plain]
-\fontsize{72pt}{90pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{white}{black}{
 Economics
-\end{center}
-\end{frame}
 }
 
 \section{Manufacturing Delusion}
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 The Software\\
 Manufacturing\\
 Delusion
-\end{center}
-\end{frame}
 }
 
 
@@ -86,9 +87,13 @@ Delusion
 \center
 \begin{quote}
 Software is largely a \textbf{service} industry\\
+\pause
 operating under the persistent\\
+\pause
 but unfounded \textbf{delusion}\\
+\pause
 that it is a \textbf{manufacturing} industry.\\
+\pause
 \end{quote}
 \bigskip
 \begin{flushright}
@@ -314,26 +319,8 @@ Total &  26,741 & 100\% \\
 }
 
 
-{
-\setbeamertemplate{navigation symbols}{}
-\begin{frame}[plain]
-\fontsize{72pt}{90pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{white}{black}{
 \$ 13 Trillion
-\end{center}
-\end{frame}
-}
-
-{
-\setbeamertemplate{navigation symbols}{}
-\begin{frame}[plain]
-\Huge
-\center
-\begin{center}
-\$ 13 Trillion
-\end{center}
-\end{frame}
 }
 
 
@@ -413,19 +400,10 @@ costs the U.S.
 }
 
 
-{
-\setbeamertemplate{navigation symbols}{}
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 The Tragedy\\
 of the\\
 Commons\\
-\end{center}
-\end{frame}
 }
 
 
@@ -454,18 +432,10 @@ Commons\\
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 The\\
 Over-Exploitation\\
-Problem\\
-\end{center}
-\end{frame}
+Problem
 }
 
 
@@ -480,17 +450,8 @@ Problem\\
 \end{frame}
 
 
-{
-\setbeamertemplate{navigation symbols}{}
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Rival Goods
-\end{center}
-\end{frame}
 }
 
 
@@ -504,72 +465,30 @@ Rival Goods
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Excludable Goods
-\end{center}
-\end{frame}
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Public Goods
-\end{center}
-\end{frame}
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Common Property\\
 Resources
-\end{center}
-\end{frame}
 }
 
-
-
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Open Access\\
 Resources
-\end{center}
-\end{frame}
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{white}{black}{
 The Coordination\\
-Problem\\
-\end{center}
-\end{frame}
+Problem
 }
 
 
@@ -615,6 +534,7 @@ Problem\\
 
 \begin{frame}
 \frametitle{Governance}
+\Huge
 \begin{itemize}
 \item Benevolent Dictator
 \pause
@@ -634,17 +554,9 @@ Problem\\
 
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Free\\
 Rider
-\end{center}
-\end{frame}
 }
 
 
@@ -658,56 +570,26 @@ Rider
 }
 
 
-{
-\begin{frame}[plain]
-\fontsize{36pt}{36pt}\selectfont
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 The Problem of\\
 Commitment
-\end{center}
-\end{frame}
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\Huge
-\center
-\begin{center}
-\emph{``Nobody wants to be a sucker''}
-\end{center}
-\end{frame}
+\centeredlargetext{black}{white}{
+\emph{``Nobody wants\\
+to be a sucker''}
 }
 
 
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\Huge
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 Conditional\\
 Compliance
-\end{center}
-\end{frame}
 }
 
-
-{
-\setbeamercolor{background canvas}{bg=black}
-\color{white}
-\begin{frame}[plain]
-\Huge
-\center
-\begin{center}
+\centeredlargetext{black}{white}{
 The Cost of\\
 Ownership
-\end{center}
-\end{frame}
 }
 
 
@@ -912,6 +794,11 @@ Typical Choices
 \item Clean Releases
 \end{itemize}
 \end{frame}
+
+
+\centeredlargetext{black}{white}{
+Indirect Appropriation
+}
 
 
 \begin{frame}
