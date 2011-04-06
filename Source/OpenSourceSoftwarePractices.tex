@@ -18,6 +18,20 @@
 \end{frame}
 }}
 
+\newcommand{\centeredhugetext}[3]{
+{
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{background canvas}{bg={#1}}
+\fontsize{72pt}{72pt}\selectfont
+\color{#2}
+\begin{frame}[plain]
+\center
+\begin{center}
+{#3}
+\end{center}
+\end{frame}
+}}
+
 
 \begin{document}
 
@@ -52,9 +66,14 @@ Images used in this presentation are attributed in the last slide.
 }
 
 
-\begin{frame}
-  \tableofcontents
-\end{frame}
+% \begin{frame}
+%   \tableofcontents
+% \end{frame}
+
+
+\centeredlargetext{black}{green}{
+% purposely empty
+}
 
 
 {
@@ -67,6 +86,192 @@ Images used in this presentation are attributed in the last slide.
 }
 
 
+\centeredhugetext{black}{white}{
+9
+}
+
+
+\centeredhugetext{black}{white}{
+\$
+}
+
+
+\centeredhugetext{black}{white}{
+85\%~\pause~Ms.
+}
+
+
+\centeredhugetext{black}{white}{
+42\%~\pause~Ph.D.
+}
+
+
+\centeredhugetext{black}{white}{
+\$~~:-)
+}
+
+
+\centeredhugetext{black}{white}{
+C[\_\_]
+}
+
+
+\centeredhugetext{black}{white}{
+HW~\pause~\$3K
+}
+
+
+\centeredhugetext{black}{white}{
+Hack, Hack !\ldots
+}
+
+
+\centeredhugetext{black}{white}{
+git push
+}
+
+
+\centeredhugetext{black}{white}{
+FREE
+}
+
+
+\centeredhugetext{black}{white}{
+2~\pause~1998
+}
+
+
+\centeredhugetext{black}{white}{
+95~\pause~2011
+}
+
+
+\centeredhugetext{black}{white}{
+$e^x$~\pause~13
+}
+
+
+\centeredhugetext{black}{white}{
+28\%~\pause~2009
+}
+
+
+\centeredhugetext{black}{white}{
+35\%~\pause~2010
+}
+
+
+\centeredhugetext{black}{white}{
+\$20M~\pause~2011
+}
+
+
+\centeredhugetext{black}{white}{
+N+=10~\pause~2011
+}
+
+
+\centeredhugetext{black}{white}{
+Debt~\pause$=$~\$0
+}
+
+
+\centeredhugetext{black}{white}{
+Profitable~\pause~every year
+}
+
+
+\centeredhugetext{black}{white}{
+It Works !
+}
+
+
+\centeredhugetext{black}{green}{
+\ldots
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{Let me tell you\\
+\bigskip
+why you are here\ldots}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{You are here\\
+\bigskip
+because\\
+\bigskip
+You know something\ldots
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{What you know\\
+\bigskip
+you can't explain\ldots
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{but you feel it\ldots
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{You felt it\\
+\bigskip
+your entire life\ldots
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{That there is\\
+\bigskip
+someting wrong\\
+\bigskip
+with the world\\
+\bigskip
+you don't know\\
+\bigskip
+what it is\ldots
+\bigskip
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{but it's there\\
+\bigskip
+like a splinter\\
+\bigskip
+in your mind\ldots
+\bigskip
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{driving you mad\ldots
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{It is this feeling\\
+\bigskip
+that has brought\\
+\bigskip
+you to me\ldots
+}
+}
+
+
 \part{Economics}
 
 \centeredlargetext{white}{black}{
@@ -74,6 +279,25 @@ Economics
 }
 
 \section{Manufacturing Delusion}
+
+
+\centeredlargetext{black}{green}{
+\emph{The Matrix\\
+\bigskip
+is the world\ldots
+}
+}
+
+
+\centeredlargetext{black}{green}{
+\emph{That has been pulled\\
+\bigskip
+over your eyes\\
+\bigskip
+to blind you from the truth\ldots
+}
+}
+
 
 \centeredlargetext{black}{white}{
 The Software\\
@@ -695,6 +919,21 @@ Coverity story about rapid bug fixing in FOSS projects
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Days to Fix a Bug in an Open Source Project (ITK)}
+\Huge
+\begin{itemize}
+\item 22\% in 1 week
+\pause
+\item 27\% in 2 week
+\pause
+\item 30\% in 1 month
+\pause
+\item Longest time 2,589 days
+\end{itemize}
+\end{frame}
+
+
 {
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{background canvas}{
@@ -795,8 +1034,46 @@ Typical Choices
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Real Open Source - Best Practices}
+\Huge
+\begin{itemize}
+\item Branching and Merging
+\pause
+\item Peripherial Development
+\pause
+\item Clean Releases
+\end{itemize}
+\end{frame}
+
+
+\part{Why Open Source ?}
+
 \centeredlargetext{black}{white}{
-Indirect Appropriation
+To be in control\\
+of your Destiny...
+}
+
+
+\centeredlargetext{black}{white}{
+Indirect\\
+Appropriation
+}
+
+
+\centeredlargetext{black}{white}{
+Guarrantee\\
+Longevity
+}
+
+
+\centeredlargetext{black}{white}{
+Support
+}
+
+
+\centeredlargetext{black}{white}{
+Competition
 }
 
 
