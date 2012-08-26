@@ -16,7 +16,9 @@
 *.ind
 *.lof
 *.lot
+*.nav
 *.maf
 *.mtc
 *.mtc1
 *.out
+*.snm
